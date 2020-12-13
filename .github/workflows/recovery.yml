@@ -16,10 +16,10 @@ on:
 env:
   MANIFEST: https://github.com/omnirom/android.git -b android-11
   DEVICE: phoenix
-  DT_LINK: https://github.com/JamieHoSzeYui/android_recovery_xiaomi_rosy
-  DT_PATH: device/xiaomi/rosy
-  KERNEL_LINK: https://github.com/Pulkit077/kernel_xiaomi_rosy
-  KERNEL_PATH: kernel/xiaomi/rosy
+  DT_LINK: https://github.com/DronaAutomation/device_xiaomi_phoenix -b eleven
+  DT_PATH: device/xiaomi/phoenix
+  KERNEL_LINK: https://github.com/DronaAutomation/kernel_xiaomi_phoenix -b eleven
+  KERNEL_PATH: kernel/xiaomi/phoenix
   TARGET: recoveryimage
   TZ: Asia/Kolkata
 
